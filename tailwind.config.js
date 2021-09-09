@@ -11,7 +11,27 @@ module.exports = {
         'open4' : ['Open Sans'],
         'poppin6' : ['Poppins'],
       },
+      borderRadius: {
+        'border1' : '1.25rem',
+      },
 
+      height: {
+        'height1' : '1.188rem',
+      },
+
+      lineHeight:{
+        'lineh1' : '2.25rem',
+      },
+
+      padding: {
+        'padding1' : '4.313rem',
+        'padding2' : '3.75rem',
+      },
+
+      width: {
+        'width1' : '7.5rem',
+        'width2' : '1.688rem',
+      },
       zIndex: {
         '-10' : '-10',
       }

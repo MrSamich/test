@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-   <!-- google fonts -->
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   <!-- google fonts -->
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.css">
   <link rel="stylesheet" href="./tailwind.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -32,23 +34,33 @@
 </head>
 
 <body class="bg-backgroundc">
-  <img class="fixed -z-10" src="./images/bg-mobile.svg" alt="">
-  <img src="./images/logo.svg" alt="">
+  <img class="fixed -z-10 w-full" src="./images/bg-mobile.svg" alt="">
+  <div class="px-9 pt-10">
+    <img class="w-width1 h-hieght1 px-0.5 pb-padding1" src="./images/logo.svg" alt="">
+    <img class="pb-padding2 px-0.5" src="./images/illustration-mockups.svg" alt="">
+    <div class="text-center pb-16">
+      <h1 class="poppin6 text-2xl text-white pb-4 leading-lineh1 font-semibold">Build The Community Your Fans Will Love
+      </h1>
+      <p class="open4 text-white text-base font-light leading-6 pb-6"> Huddle re-imagines the way we build communities.
+        You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.
+      </p>
+      <button class="w-48 h-10 rounded-border1 text-backgroundc bg-white"> Register </button>
+    </div>
+    <ul class="flex justify-center">
+      <li class="">
+        <i class="w-width2 fab fa-facebook"></i>
+      </li>
+      <li>
+        <i class="fab fa-twitter"></i>
+      </li>
+      <li>
+        <i class="fab fa-instagram"></i>
+      </li>
+    </ul>
+    
+  </div>
 
-  <!-- <div class="flex">
-  <h1 class="">Build The Community Your Fans Will Love</h1>
-
- <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. </p>
-
-  <button> Register </button>
-</div> -->
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 
 </html>
