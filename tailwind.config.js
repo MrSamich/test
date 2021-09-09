@@ -6,6 +6,12 @@ module.exports = {
       colors: {
         'backgroundc' : '#684BB1',
       },
+       
+      fontFamily: {
+        'open4' : ['Open Sans'],
+        'poppin6' : ['Poppins'],
+      },
+
       zIndex: {
         '-10' : '-10',
       }
