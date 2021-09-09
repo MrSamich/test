@@ -21,6 +21,7 @@ module.exports = {
 
       lineHeight:{
         'lineh1' : '2.25rem',
+        'lineh2' : '1.125rem'
       },
 
       padding: {
